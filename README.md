@@ -8,7 +8,7 @@ Simple and user-friendly registration form.
 Input validation for name, age, and email fields.
 Display of user information in a list.
 
-#Technologies Used
+# Technologies Used
 
 HTML
 CSS
