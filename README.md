@@ -5,11 +5,15 @@ This is a simple registration form built using HTML, CSS, and JavaScript. Users 
 # Features
 
 Simple and user-friendly registration form.
+
 Input validation for name, age, and email fields.
+
 Display of user information in a list.
 
 # Technologies Used
 
 HTML
+
 CSS
+
 JavaScript
