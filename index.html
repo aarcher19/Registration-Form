@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="userForm">
+        <h1>User Regristration Form</h1>
+        <div class="inputContainer">
+          <h2 class="heading">Name*</h2>
+          <input
+            type="text"
+            id="name"
+            placeholder="John Doe"
+            maxlength="55"
+            required
+          />
+          <h2 class="heading">Age*</h2>
+          <input
+            type="number"
+            id="age"
+            placeholder="69"
+            min="0"
+            max="150"
+            required
+          />
+          <h2 class="heading">Email*</h2>
+          <input
+            type="email"
+            id="email"
+            placeholder="SomeEmail@email.com"
+            required
+          />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="outputContainer">
+        <h1>User Information</h1>
+        <div id="output"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
